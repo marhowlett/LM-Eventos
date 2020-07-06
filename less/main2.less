@@ -1,0 +1,787 @@
+@font-face {
+    font-family: 'Gotham Bold';
+    src: url('fonts/GothamHTF-Bold.woff2') format('woff2'),
+        url('fonts/GothamHTF-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham Light';
+    src: url('fonts/GothamHTF-Light.woff2') format('woff2'),
+        url('fonts/GothamHTF-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Amarillo';
+    src: url('fonts/Amarillo.woff2') format('woff2'),
+        url('fonts/Amarillo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.row {
+    
+    display: inherit;
+}
+/* Ajustes generales de la plantilla */
+.whb-scroll-stick .woodmart-logo img {  
+ 
+    max-height: 61px;
+    margin-top: 4px;
+        transform: scale(1.4) translateY(17px);
+}
+@import "vars";
+
+
+/*Ajuste de FullWidth*/
+
+.page-template {
+    .container {
+        max-width: 100%;
+        width: 100%;
+    }
+}
+.whb-color-dark .navigation-style-underline .item-level-0>a {
+    font-family: 'Gotham Light'!important;
+ //   color: @gris;
+    font-size: 18px;
+}
+
+/*Esquema por defecto para las secciones*/
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    .col {
+        width: 50%;
+    }
+    .col2 {
+            width: 33.33%;
+    }
+}
+
+/*Ajuste general*/
+ol {
+    list-style: decimal;
+}
+
+.template-section {
+   
+        padding: 50px 0;
+    
+
+    .contenedor {
+        max-width: 1100px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .col {
+        min-height: 500px;
+        padding: 60px;
+    }
+    .col2 {
+        min-height: 500px;
+        padding: 60px;
+    }
+    
+    h1 {
+        color: @rosa;;
+         font-family: 'Gotham Bold';
+        
+            font-size: 68px;
+       
+        b {
+             font-family: 'Gotham Light';
+            color: black;
+            display: block;
+             font-size: 50px;
+        }
+        
+        
+    }
+
+    h2 {
+         font-family: 'Gotham Bold';
+        color: @rosa;
+        
+        font-size: 58px;
+        font-weight: normal;
+        line-height: 1.3em;
+        text-align: center;
+
+    }
+    h3 {
+         font-size: 48px;
+        font-family: 'Gotham Bold';
+         color: @rosa;
+    }
+    p,
+    ul {
+        color: @gris;
+        font-size: 18px;
+        font-family: 'Gotham Light';
+        b{
+            font-family: 'Gotham Bold';
+            color: @rosa;
+        }
+        
+    }
+
+    ul {
+        li {
+            color: @gris;
+             font-family: 'Gotham Light';
+            position: relative;
+            margin-left: 15px;
+            margin-bottom: 10px;
+            b{
+                font-family: 'Gotham Bold';
+            }
+            &::before {
+               
+                color: @rosa;
+                padding-right: 10px;
+                position: absolute;
+                left: -15px;
+            }
+        }
+      
+
+        
+    }
+
+
+
+  
+
+    .btn {
+        transition: all 0.3s ease-in-out;
+         font-family: 'Gotham Light';
+            text-transform: none;
+            font-size: 1.8em;
+         -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 20px;
+            background: @rosa;
+            color: white;
+            &:hover {
+                 transform: translateY(-5px);
+                background: @white;
+                color: white;
+               
+            }
+        
+    }
+    .center {
+        text-align: center;
+    }
+}
+
+
+@font-face {
+    font-family: 'Aller';
+    src: url('fonts/Aller-BoldItalic.woff2') format('woff2'),
+        url('fonts/Aller-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Aller';
+    src: url('fonts/Aller-LightItalic.woff2') format('woff2'),
+        url('fonts/Aller-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Karla';
+    src: url('fonts/Karla-Regular.woff2') format('woff2'),
+        url('fonts/Karla-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Karla';
+    src: url('fonts/Karla-Bold.woff2') format('woff2'),
+        url('fonts/Karla-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aller';
+    src: url('fonts/Aller-Italic.woff2') format('woff2'),
+        url('fonts/Aller-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Karla';
+    src: url('fonts/Karla-Italic.woff2') format('woff2'),
+        url('fonts/Karla-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Aller';
+    src: url('fonts/Aller-Light.woff2') format('woff2'),
+        url('fonts/Aller-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aller';
+    src: url('fonts/Aller-Bold.woff2') format('woff2'),
+        url('fonts/Aller-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aller Display';
+    src: url('fonts/AllerDisplay-Regular.woff2') format('woff2'),
+        url('fonts/AllerDisplay-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aller';
+    src: url('fonts/Aller-Regular.woff2') format('woff2'),
+        url('fonts/Aller-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Karla';
+    src: url('fonts/Karla-BoldItalic.woff2') format('woff2'),
+        url('fonts/Karla-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+
+
+.row {
+    
+    display: inherit;
+}
+/* Ajustes generales de la plantilla */
+.whb-scroll-stick .woodmart-logo img {  
+ 
+    max-height: 61px;
+    margin-top: 4px;
+        transform: scale(1.4) translateY(17px);
+}
+@import "vars";
+
+
+
+/*Ajuste de FullWidth*/
+
+.page-template {
+    .container {
+        max-width: 100%;
+        width: 100%;
+    }
+}
+.whb-color-dark .navigation-style-underline .item-level-0>a {
+    font-family: 'Karla'!important;
+    color: @azul;
+    font-size: 18px;
+}
+
+
+/*Esquema por defecto para las secciones*/
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    .col {
+        width: 50%;
+    }
+    .col2 {
+            width: 33.33%;
+    }
+}
+
+/*Ajuste general*/
+ol {
+    list-style: decimal;
+}
+
+.template-section {
+   
+        padding: 50px 0;
+    
+
+    .contenedor {
+        max-width: 1100px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .col {
+        min-height: 500px;
+        padding: 60px;
+    }
+    .col2 {
+        min-height: 500px;
+        padding: 60px;
+    }
+    
+    h1 {
+        color: @azul;
+          font-family: 'Aller';
+        font-weight: normal;
+            font-size: 68px;
+        span {
+            font-weight: 500;
+        }
+        b {
+            font-weight: bold;
+            color: @naranja;
+            display: block;
+             font-size: 50px;
+        }
+        
+        
+    }
+
+    h2 {
+        color: @azul;
+         font-family: 'Aller';
+        font-size: 3.0em;
+        font-weight: normal;
+        line-height: 1.3em;
+        text-align: center;
+
+    }
+    h3 {
+        font-family: 'Aller';
+    }
+    p,
+    ul {
+        color: @gris;
+        font-size: 1.5em;
+         font-family: 'Aller';
+        
+    }
+
+    ul {
+        li {
+            color: @gris;
+               font-family: 'Aller';
+            position: relative;
+            margin-left: 15px;
+            margin-bottom: 10px;
+            &::before {
+               
+                color: @azul;
+                padding-right: 10px;
+                position: absolute;
+                left: -15px;
+            }
+        }
+      
+
+        
+    }
+
+
+
+  
+
+    .btn {
+        transition: all 0.3s ease-in-out;
+          font-family: 'Aller';
+            text-transform: none;
+            font-size: 1.8em;
+         -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 20px;
+            background: @naranja;
+            color: white;
+            &:hover {
+                background: @rosa;
+               
+            }
+        
+    }
+    .center {
+        text-align: center;
+    }
+}
+
+#banner {
+     background: url(../img/banner.jpg) no-repeat right;
+    padding: 365px 0;
+    .center {
+           position: relative;
+    right: 265px;
+        top: 87px;
+    }
+    
+    h1 span {
+        font-weight: bold;
+    }
+    .azul {
+               background-color: #00559c;
+    padding: 15px 5px 61px 5px;
+    max-width: 1250px;
+    margin-bottom: 20px;
+        
+        
+        }
+    h3 {
+               color: white;
+    position: relative;
+    top: -89px;
+        }
+    .btn {
+        position: relative;
+            top: -70px;
+            background-color: @rosa;
+            &:hover {
+                 background: @naranja;
+            }
+    }
+    }
+#quienes {
+    padding: inherit;
+    padding-top: 50px;
+    h2 {
+        text-align: center;
+            text-align: center;
+    margin-top: 50px;
+    }
+    p {
+            max-width: 500px;
+    text-align: justify;
+            margin: 20px auto;
+    }
+    img {
+            position: relative;
+    z-index: 1;
+    margin-top: -321px;
+    }
+}
+#soluciones {
+    padding: 133px 0;
+        position: relative;
+    top: -98px;
+     background: url(../img/solu.jpg) no-repeat top right;
+    h2 span {
+        display: block;
+        font-weight: bold;
+    }
+    .fondo2 {
+        display: inherit;
+    }
+    .fondo1 {
+        display: none;
+    }
+    .col {
+            padding: 25px;
+    }
+    ul {
+            position: relative;
+    left: 100px;
+            margin-bottom: 30px;
+    }
+    .prueba_col {
+            position: relative;
+    left: 50px;
+    }
+}
+#blog {
+    margin-top: -391px;
+    h2 {
+        text-align: center;
+    }
+    img.flor {
+        position: relative;
+    top: 74px;
+    }
+    .gris {
+        padding: 50px;
+        background-color: @gris_fondo;
+    }
+}
+#video {
+    h2 {
+        text-align: center;
+    }
+    img.uno {
+        position: relative;
+    float: right;
+    right: 100px;
+    top: -147px;
+    }
+}
+#advertencia{ 
+       padding: 235px 0;
+     background: url(../img/advertencia.jpg) no-repeat center;
+    p {
+        text-align: center;
+    position: relative;
+    top: 75px;
+        color: @azul;
+    }
+}
+#contacto {
+        margin-top: 79px;
+    background-color: @azul;
+    h2 {
+        text-align: center;
+    }
+    h2, p {
+        color: white;
+    }
+    img.flor {
+            margin-top: -188px;
+        position: relative;
+    left: 100px;
+    }
+    strong {
+            font-size: 1.5em;
+    display: block;
+    }
+    p.contacto {
+            font-weight: 100;
+    }
+    .prueba_col {
+        position: relative;
+        left: 50px;
+    }
+    .caldera-grid .form-control {
+    
+    background-color: transparent;
+    border: 1px solid white;
+        color: white;
+}
+     .caldera-grid .form-control::placeholder, .caldera-grid .form-control  { 
+        color: white;
+       font-family: 'Aller';
+         font-style: italic;
+       
+    }
+    .btn {
+            float: right;
+    font-size: 25px;
+    background-color: transparent;
+    border: 1px solid white;
+        &:hover{
+            background-color: @rosa;
+            color: white;
+        }
+    }
+    .blanco {
+          
+    background-color: white;
+       padding: 10px 9px 1px 15px;
+    position: relative;
+    left: 205px;
+    margin-top: -6px;
+        
+        p {
+            color: @azul;
+            font-weight: bold;
+             font-family: 'Karla';
+            position: relative;
+    left: 50px;
+            
+        }
+    }
+}
+/**QUIENES SOMOS*/
+#quienes_somos {
+     background: url(../img/quienes_somos.jpg) no-repeat center;
+    p {
+        max-width: 500px;
+    text-align: justify;
+            margin: auto;
+        font-weight: normal;
+    }
+    h1 {
+        text-align: center;
+    }
+    .fondo {
+       img {
+            display: none;
+            }
+    }
+    .col {
+        position: relative;
+    top: 20px;
+    left: 120px;
+    }
+}
+#mision {
+    p {
+        text-align: justify;
+    }
+}
+#valores {
+    .gris {
+        background-color: @gris_fondo;
+    }
+    img {
+         display: block;
+    margin: auto;
+            margin-top: 50px;
+    }
+    img.flor {
+           
+    position: relative;
+    left: 400px;
+    top: 75px;
+    margin-top: -300px;
+    }
+    h3 {
+            text-align: center;
+    margin-top: 20px;
+        color: @azul;
+    }
+    .col2 {
+        padding: 10px;
+    }
+    p {
+        text-align: center;
+    }
+}
+
+/***NUESTROS SERVICIOS***/
+#conoc {
+    h1 {
+            font-weight: 100!important;
+    }
+    .apoyo {
+    color: @azul;
+}
+}
+
+#truno {
+    .imamovil1 {
+        display: none;
+    }
+    .imamovil2 {
+        display: inherit;
+    }
+    span {
+            font-style: italic;
+            font-weight: 100;
+    }
+    p {
+            font-weight: bold;
+    max-width: 400px;
+    margin: auto;
+    position: relative;
+        em {
+        display: block;
+        font-weight: 100;
+    }
+    }
+    .col {
+        padding: inherit;
+            padding-top: 50px;
+    padding-bottom: 50px;
+    }
+    .coluno {
+        position: relative;
+    right: 50px;
+    }
+    .colunouno {
+        position: relative;
+    top: 95px;
+    }
+    .coldos {
+        position: relative;
+    left: 50px;
+    }
+    h3.azul {
+        text-align: center;
+        color: @azul;
+            position: relative;
+    top: 74px;
+        font-weight: bold;
+    }
+    img.flor {
+            margin: auto;
+    position: relative;
+    margin-top: -121px;
+    left: 427px;
+    display: block;
+    width: 220px;
+    }
+    .naranja {
+        background-color: @naranja;
+            padding: 12px 5px 1px 5px;
+        h3 {
+            text-align: center;
+            color: white;
+            
+            font-weight: 100;
+            a {
+                font-weight: bold;
+            }
+        }
+    }
+}
+#pago {
+    .azul {
+        background-color: @azul;
+        h2, p {
+            color: white;
+            position: relative;
+                top: 56px;
+    right: 100px;
+        }
+        a {
+               color: white;
+        }
+    }
+    p {
+        text-align: center;
+        font-weight: 100;
+    }
+    img {
+        display: block;
+        margin: auto;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    a {
+       font-weight: bold;
+    }
+    .col {
+    min-height: inherit;
+    }
+    
+}
+
+footer {
+    
+    background-color: white;
+    p {
+        text-align: center;
+        color: @azul!important;
+        
+        
+    }
+}
+@import "responsive";
