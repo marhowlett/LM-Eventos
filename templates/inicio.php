@@ -3,16 +3,18 @@
     get_header();
 ?>
 
-<div id="slide" >
+<section id="slide" >
     <?php add_revslider('jewelry'); ?>
-</div>
-
+</section>
+<section id="slide2" >
+    <?php add_revslider('movil'); ?>
+</section>
 <section id="organiza" class="template-section">
 <div class="contenedor">
    <h2>Organizamos tu Evento</h2>
    <p>En Leonor Morales Wedding and Event Planner <b>cuidamos cada detalle</b> y te brindamos la magia que hará que tu evento sea realmente <b>inolvidable</b> por eso:</p>
     <div class="grid">
-        <div class="col"></div>
+        <div class="col"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/salud.png" alt="Logo"></div>
         <div class="col">
             <ul>
                 <li>Realizamos <b>tu evento en cualquier parte de México</b>.</li>
@@ -25,7 +27,7 @@
                 
             </ul>
             <p class="especial"><b>¡Queremos que disfrutes tu celebración desde la planeación!</b></p>
-             <a href="#" class="btn">Saber más</a>
+             <a href="https://lmeventos.com.mx/organizamos/" class="btn">Saber más</a>
         </div>
     </div>
 </div>
@@ -56,7 +58,7 @@ Aquí te contamos todo lo que necesitas saber para que tu Evento sea un éxito. 
          
      </div>
        <div class="center">
-           <a href="#" class="btn">VER REVISTA</a>
+           <a href="https://lmeventos.com.mx/revista/" class="btn">VER REVISTA</a>
        </div>
         </div>
     </section>
@@ -68,7 +70,7 @@ Aquí te contamos todo lo que necesitas saber para que tu Evento sea un éxito. 
 </p>
         <p>Ofrecemos asesoría y atención personalizada para coordinar los detalles de tu Boda, Bautizo, XV años y cualquier otro tipo de Evento social o corporativo, conforme a tus gustos,  peticiones y a las últimas tendencias </p>
         <div class="center">
-           <a href="#" class="btn">ME INTERESA</a>
+           <a href="https://lmeventos.com.mx/nosotros/" class="btn">ME INTERESA</a>
        </div>
      </div>
 </section>

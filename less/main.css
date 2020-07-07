@@ -20,14 +20,20 @@
   font-style: normal;
   font-display: swap;
 }
-.row {
+body.page-template-inicio .row,
+body.page-template-organizamos .row,
+body.page-template-nosotros .row {
   display: inherit;
 }
 /* Ajustes generales de la plantilla */
-.whb-scroll-stick .woodmart-logo img {
-  max-height: 61px;
-  margin-top: 4px;
-  transform: scale(1.4) translateY(17px);
+.woodmart-logo img {
+  transform: scale(1.4) translateY(-2px);
+}
+.whb-row.whb-general-header.whb-not-sticky-row.whb-without-bg.whb-without-border.whb-color-dark.whb-flex-equal-sides {
+  padding: 20px;
+}
+.main-page-wrapper {
+  padding-top: 0px;
 }
 /*Ajuste de FullWidth*/
 .page-template .container {
@@ -36,7 +42,10 @@
 }
 .whb-color-dark .navigation-style-underline .item-level-0 > a {
   font-family: 'Gotham Light' !important;
-  font-size: 18px;
+  color: #413d3d;
+  font-size: 16px;
+  position: relative;
+  top: 37px;
 }
 /*Esquema por defecto para las secciones*/
 .grid {
@@ -48,6 +57,9 @@
 }
 .grid .col2 {
   width: 33.33%;
+}
+.grid .col3 {
+  width: 25%;
 }
 /*Ajuste general*/
 ol {
@@ -69,11 +81,16 @@ ol {
   min-height: 500px;
   padding: 60px;
 }
+.template-section .col3 {
+  min-height: 500px;
+  padding: 60px;
+}
 .template-section h1 {
   color: #d93183;
   font-family: 'Gotham Bold';
   text-align: center;
   font-size: 68px;
+  text-transform: uppercase;
 }
 .template-section h1 b {
   font-family: 'Gotham Light';
@@ -84,6 +101,7 @@ ol {
 .template-section h2 {
   font-family: 'Gotham Bold';
   color: #d93183;
+  text-transform: uppercase;
   font-size: 48px;
   font-weight: normal;
   line-height: 1.3em;
@@ -99,6 +117,7 @@ ol {
   font-size: 38px;
   font-family: 'Gotham Bold';
   color: #d93183;
+  text-transform: uppercase;
 }
 .template-section p,
 .template-section ul,
@@ -146,7 +165,7 @@ ol {
 .template-section .btn {
   transition: all 0.3s ease-in-out;
   font-family: 'Gotham Light';
-  text-transform: none;
+  text-transform: uppercase;
   font-size: 1.8em;
   background: #d93183;
   color: white;
@@ -158,6 +177,12 @@ ol {
 }
 .template-section .center {
   text-align: center;
+}
+section#slide2 {
+  display: none;
+}
+section#valores2 {
+  display: none;
 }
 #organiza {
   background: url(../img/fondo1.png) no-repeat center;
@@ -306,8 +331,11 @@ ol {
   position: relative;
   left: 40px;
 }
+footer.template-section {
+  padding: inherit;
+}
 #esbrillante {
-  margin-bottom: -65px;
+  margin-bottom: -20px;
   padding: 20px 0;
   background-color: #413d3d;
 }
@@ -318,7 +346,6 @@ ol {
   color: white;
 }
 #conocenos2 {
-  margin-top: -7px;
   padding: inherit;
   background-color: #eeeeee;
 }
@@ -338,6 +365,9 @@ ol {
   position: relative;
   left: -100px;
 }
+#conocenos2 .col {
+  min-height: 650px;
+}
 #conocenos2 p {
   text-align: justify;
   max-width: 550px;
@@ -347,12 +377,18 @@ ol {
   margin: 20px auto;
 }
 #conocenos3 {
-  margin-top: -7px;
   padding: inherit;
   background-color: #eeeeee;
 }
+#conocenos3 .col {
+  height: 650px;
+}
 #conocenos3 .fondo {
   background: url(../img/2Mision.jpg) no-repeat center;
+}
+#conocenos3 .fondo2 {
+  position: relative;
+  top: 94px;
 }
 #conocenos3 h2 {
   margin-top: 40px;
@@ -397,6 +433,7 @@ ol {
 }
 #valores .contenedor h2 {
   margin-bottom: 20px;
+  text-transform: inherit;
 }
 #organizar {
   background: url(../img/organizamos.jpg) no-repeat center;
@@ -428,6 +465,296 @@ ol {
 #bebe h3 {
   font-size: 20px;
 }
-#bebe h3 {
-  text-transform: uppercase;
+/***popup**/
+#popup {
+  background: url(../img/3-Paquetes.jpg) no-repeat center;
+}
+#popup .col3 {
+  padding: inherit;
+  background: url(../img/paquete.jpg) no-repeat center;
+  background-size: cover;
+  min-height: 400px;
+  width: 24.8%;
+  margin: auto;
+}
+#popup h3 {
+  color: #bda875;
+  text-align: center;
+  font-size: 20px;
+  position: relative;
+  top: 30px;
+}
+#popup .ban {
+  background-color: #bda875;
+  padding: 2px;
+  position: relative;
+  top: 119px;
+}
+#popup .ban h2 {
+  font-family: 'Amarillo';
+  color: white;
+  text-transform: lowercase;
+  font-size: 40px;
+}
+#popup .popupaoc-image-popup {
+  /* display: block; */
+  /* margin: auto; */
+  text-align: center;
+  position: relative;
+  top: 150px;
+}
+#popup p.blanco {
+  max-width: 1000px;
+  text-align: justify;
+  margin: 20px auto;
+}
+#popup2 {
+  padding: inherit;
+}
+#popup2 h2 {
+  font-size: 40px;
+}
+#popup2 .ban1 {
+  background-color: #bda875;
+  padding: 30px;
+}
+#popup2 p {
+  text-align: center;
+}
+#popup2 .ban2 {
+  background-color: #ff918a;
+  padding: 10px;
+  position: relative;
+  top: -1px;
+}
+#popup2 .ban3 {
+  padding: 60px;
+}
+div#paoc-modal-1 {
+  flex-basis: 80%!important;
+}
+a.paoc-popup-close.paoc-close-popup {
+  background: url(https://lmeventos.com.mx/wp-content/uploads/2020/07/tache.png) center center no-repeat;
+}
+.paoc-popup-modal-cnt {
+  padding: inherit;
+}
+#fuera {
+  padding: 100px 0;
+  background: url(../img/4-Fuera.jpg) no-repeat center;
+  background-size: cover;
+}
+#fuera p {
+  text-align: justify;
+  text-align-last: center;
+}
+#fuera .contenedor {
+  max-width: 550px;
+}
+@media (max-width: 768px) {
+  .offcanvas-sidebar-mobile .woodmart-sticky-sidebar-opener {
+    display: none!important;
+  }
+}
+@media screen and (max-width: 750px) {
+  .woodmart-burger-icon a {
+    color: #d93183 !important;
+  }
+  /*LOGO*/
+  .woodmart-logo img {
+    padding-top: 0;
+    transform: scale(1.7) translateY(0px);
+  }
+  canvas {
+    touch-action: auto !important;
+  }
+  .scene-nav {
+    display: none;
+  }
+  /*Esquema por defecto para las secciones*/
+  .grid {
+    display: initial;
+  }
+  .grid .col {
+    width: 100%;
+  }
+  .grid .col2 {
+    width: 100%;
+  }
+  .grid .col3 {
+    width: 100%;
+  }
+  .grid.invertido {
+    flex-wrap: wrap-reverse;
+  }
+  .template-section a.btn {
+    margin: 0 auto;
+    display: block;
+    margin-top: 25px;
+    padding: 15px;
+    margin-left: 10px!important;
+    margin-right: 10px;
+  }
+  .template-section {
+    padding: 50px 15px;
+  }
+  .template-section .col,
+  .template-section .col2,
+  .template-section .col3 {
+    min-height: auto;
+    padding: 20px;
+  }
+  .template-section h2 {
+    font-size: 38px;
+  }
+  .template-section p,
+  .template-section h2,
+  .template-section h3 {
+    text-align: center;
+  }
+  #organiza {
+    background: url(../img/fondo1movil.png) no-repeat center;
+    z-index: 99;
+    height: inherit;
+    background-size: cover;
+    top: -31px;
+  }
+  #organiza .contenedor {
+    top: 20px;
+  }
+  #organiza .col {
+    top: 0px;
+  }
+  section#slide {
+    display: none;
+  }
+  section#slide2 {
+    display: inherit;
+  }
+  section#valores {
+    display: none;
+  }
+  section#valores2 {
+    display: inherit;
+  }
+  #galeria {
+    margin-top: -57px;
+  }
+  #galeria .contenedor {
+    margin-top: 25px;
+  }
+  #galeria a.load-more.ladda-button {
+    font-size: 1.4em;
+  }
+  #conocenos {
+    background: url(../img/Conocenosmovil.jpg) no-repeat center;
+    background-size: cover;
+  }
+  #conocenos .contenedor {
+    top: -26px;
+    left: 0px;
+  }
+  #conocenos img {
+    margin-bottom: 0px;
+  }
+  #conocenos h2 {
+    position: relative;
+    top: 13px;
+  }
+  #contacto a.evento {
+    position: relative;
+    top: 0px;
+  }
+  #contacto p img {
+    margin-left: 0px;
+  }
+  #contacto p {
+    text-align: left;
+  }
+  #contacto span {
+    position: relative;
+    left: 0px;
+  }
+  #contacto p.imagenes {
+    text-align: center;
+    position: relative;
+    top: 0px;
+  }
+  #contacto p.imagenes img {
+    margin-left: 20px;
+  }
+  #organizar {
+    margin-bottom: -32px;
+    padding: 50px 0px;
+    background: url(../img/organizamosmovil.jpg) no-repeat right;
+    background-size: cover;
+  }
+  #organizar .grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: -31px;
+  }
+  #organizar .col {
+    width: 63%;
+  }
+  #organizar h2 {
+    text-align: left;
+    font-size: 30px;
+  }
+  #organizar p {
+    text-align: left;
+  }
+  #bebe {
+    background: url(../img/bebemovil.png) no-repeat top center;
+  }
+  #bebe .contenedor {
+    margin-top: 500px;
+  }
+  #bebe h3 {
+    font-size: 18px;
+    text-align: left;
+  }
+  #popup {
+    background: url(../img/3-Paquetesmovil.jpg) no-repeat center;
+  }
+  #popup .col3 {
+    width: 100%;
+    margin-top: 20px;
+  }
+  #popup2 h2 {
+    font-size: 25px;
+  }
+  #popup2 .ban3 {
+    padding: 20px;
+  }
+  #fuera {
+    padding: 100px 20px;
+    background: url(../img/4-Fueramovil.jpg) no-repeat center;
+    background-size: cover;
+  }
+  #valores2 {
+    background: url(../img/3Valoresmovil.jpg) no-repeat center;
+    background-size: cover;
+  }
+  #valores2 .grid {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #valores2 .col {
+    width: 50;
+    min-height: auto;
+  }
+  #valores2 p {
+    text-align: center;
+    position: relative;
+    top: 20px;
+  }
+  #valores2 img {
+    display: block;
+    margin: auto;
+  }
+  #valores2 .contenedor h2 {
+    margin-bottom: 20px;
+    text-transform: inherit;
+  }
 }

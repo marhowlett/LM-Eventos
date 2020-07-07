@@ -48,8 +48,55 @@ Podemos diseñarte un traje a la medida con los mejores proveedores de:</h3>
        </div>
    </div>
 </section>
+<section id="popup" class="template-section">
+<div class="contenedor">
+<h2 class="blanco">Nuestros paquetes Estrella</h2>
+<p class="blanco">
+ Incluyen todo lo que el cliente requiera para su Evento, Leonor Morales Wedding and Event Planner te ayuda desde la búsqueda de proveedores para la organización, elaboración de presupuestos, desarrollo del concepto, supervisión para ese gran día, coordinación y protocolo del Evento.</p>
+ <div class="grid">
+ <div class="col3"><h3>Organización y
+gestión de contrato</h3>
+<div class="ban"><h2>disfruta</h2>
 
+</div>
+<?php echo do_shortcode('[popup_anything id="3013"]'); ?>
+</div>
+ 
+<div class="col3"><h3>Presupuesto<br>&nbsp;</h3>
+<div class="ban"><h2>confía</h2>
 
+</div>
+<?php echo do_shortcode('[popup_anything id="3016"]'); ?>
+</div>
+<div class="col3"><h3>Asesoramiento
+experimentado</h3>
+<div class="ban"><h2>celebra</h2>
+
+</div>
+<?php echo do_shortcode('[popup_anything id="3017"]'); ?>
+</div>
+<div class="col3"><h3>Logística día
+del evento</h3>
+<div class="ban"><h2>vive</h2>
+
+</div>
+<?php echo do_shortcode('[popup_anything id="3018"]'); ?>
+</div>
+ </div>
+ </div>
+</section>
+
+<section id="fuera" class="template-section">
+<div class="contenedor">
+    <h2>Eventos fuera de la CDMX</h2>
+    <p>Si quieres realizar tu Evento fuera de la CDMX, Leonor Morales Wedding & Event Planner mantiene las condiciones de los paquetes para ti.  Sólo se adicionará los gastos de traslado de acuerdo al tiempo y  la Cuidad en donde se realice el Evento.</p>
+    <p>Queremos que tu Evento sea un éxito, contáctanos para enviarte una cotización </p>
+    <div class="center">
+        <a href="https://lmeventos.com.mx/#contacto" class="btn">Contactar</a>
+    </div>
+</div>
+   
+</section>
 
 <?php 
     get_footer();

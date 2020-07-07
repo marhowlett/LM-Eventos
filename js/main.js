@@ -1,4 +1,5 @@
 //Remover los title de los a
+// Quick & dirty toggle to demonstrate modal toggle behavior
 
 window.onload = function () {
     var links = document.getElementsByTagName("a");

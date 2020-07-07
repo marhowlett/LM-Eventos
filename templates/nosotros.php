@@ -62,6 +62,33 @@ Con <b class="gris">más de 5 años de experiencia </b>en la producción, planea
     </div>
 </div>
 </section>
+
+<section id="valores2" class="template-section">
+
+<div class="contenedor">
+   <h2 class="especial">Valores</h2>
+<p>Consideramos nuestros valores como guía fundamental de nuestro trabajo de cada día para lograr excelentes resultados para nuestros clientes.</p>
+    <div class="grid">
+        <div class="col"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/Estrella.png" alt="Soluciones"><p>Honestidad</p></div>
+        <div class="col"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/Lapiz.png" alt="Soluciones"><p>Creatividad</p></div>
+   </div>
+            <div class="grid">
+             <div class="col"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/Ramo.png" alt="Soluciones"><p>Vanguardia</p></div>
+    
+    
+        <div class="col"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/Corona.png" alt="Soluciones"><p>Experiencia</p></div>
+    </div>
+         <div class="grid">
+          <div class="col"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/Escuadra.png" alt="Soluciones"><p>Precisión</p></div>
+        <div class="col"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/Palomita.png" alt="Soluciones"><p>Seguridad</p></div>
+    </div>
+    <div class="grid">
+        
+        <div class="col"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/Anillo.png" alt="Soluciones"><p>Compromiso</p></div>
+        
+    </div>
+</div>
+</section>
 <?php 
     get_footer();
 ?>

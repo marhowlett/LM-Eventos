@@ -28,7 +28,7 @@
 	<footer class="template-section">
      <section id="esbrillante" class="template-section">
  <div class="center">
- <p>Copyright All Rights Reserved © 2020 | Desarollo Web por <a href="http://esbrillante.mx/">esbrillante.mx</a></p>
+ <p>Copyright All Rights Reserved © 2020 | Desarrollo Web por <a href="http://esbrillante.mx/">esbrillante.mx</a></p>
  </div>
 </section>
 </footer>
