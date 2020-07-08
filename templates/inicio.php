@@ -64,7 +64,7 @@ Aquí te contamos todo lo que necesitas saber para que tu Evento sea un éxito. 
     </section>
      <section id="conocenos" class="template-section">
      <div class="contenedor">
-         <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.png" alt="Soluciones">
+         <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.svg" alt="Soluciones">
          <h2>Conócenos</h2>
          <p>Leonor Morales Wedding and Event Planner, es una empresa con más de 5 años de experiencia en la producción, planeación y organización de Eventos Sociales. 
 </p>
@@ -94,7 +94,7 @@ Aquí te contamos todo lo que necesitas saber para que tu Evento sea un éxito. 
                    <p> <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ic1.png" alt="Logo"> Lunes a Sábado de 9 a.m. a 7 p.m. y <span>Domingos de 10 a.m. a 3 p.m.</span></p>
                    <p> <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ic2.png" alt="Logo"> 55 5503 3469  </p>
                    <p> <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ic3.png" alt="Logo"> <a href="https://wa.me/527771626760">777 1626 760</a><br></p>
-                 <p class="imagenes"><a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ic4.png" alt="Logo"></a><a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ic5.png" alt="Logo"></a><a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ic6.png" alt="Logo"></a></p>
+                 <p class="imagenes"><a href="https://www.instagram.com/leonormoraleseventos/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ic4.png" alt="Logo"></a><a href="https://www.facebook.com/LeonorMoralesEventos/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ic5.png" alt="Logo"></a><a href="https://www.zankyou.com.mx/f/leonor-morales-wedding-planner-828676"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ic6.png" alt="Logo"></a></p>
                  
                 </div>
 

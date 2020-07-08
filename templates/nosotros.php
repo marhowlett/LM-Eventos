@@ -24,7 +24,7 @@ Con <b class="gris">más de 5 años de experiencia </b>en la producción, planea
 
 </section>
 
-<section id="conocenos3" class="template-section">
+<section id="conocenos3" class="lap template-section">
 
     <div class="grid">
        <div class="col fondo"></div>
@@ -37,6 +37,24 @@ Con <b class="gris">más de 5 años de experiencia </b>en la producción, planea
         </div>
         
     </div>
+
+</section>
+
+<section id="conocenos3" class="movil template-section">
+
+    <div class="grid">
+       
+        <div class="col fondo2">
+           
+            <h2>Misión</h2>
+            <p>Mantener a nuestros clientes satisfechos, ofreciéndoles la planeación, organización y diseño de Bodas, Eventos Sociales y Corporativos.</p>
+            <h2>Visión</h2>
+            <p>Crear, sorprender y satisfacer cada día a nuestros clientes a través de momentos extraordinarios e inolvidables.</p>
+        </div>
+        
+    </div>
+    
+    <div class="col fondo"></div>
 
 </section>
 
