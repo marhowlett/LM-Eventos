@@ -92,7 +92,7 @@ del evento</h3>
     <p>Si quieres realizar tu Evento fuera de la CDMX, Leonor Morales Wedding & Event Planner mantiene las condiciones de los paquetes para ti.  Sólo se adicionará los gastos de traslado de acuerdo al tiempo y  la Cuidad en donde se realice el Evento.</p>
     <p>Queremos que tu Evento sea un éxito, contáctanos para enviarte una cotización </p>
     <div class="center">
-        <a href="https://lmeventos.com.mx/#contacto" class="btn">Contactar</a>
+        <a href="https://lmeventos.com.mx/cuestionario/" class="btn">Contactar</a>
     </div>
 </div>
    

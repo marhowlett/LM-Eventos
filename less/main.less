@@ -24,7 +24,7 @@
     font-style: normal;
     font-display: swap;
 }
-body.page-template-inicio, body.page-template-organizamos, body.page-template-nosotros{
+body.page-template-inicio, body.page-template-organizamos, body.page-template-nosotros, body.page-template-cuestionario{
 .row {
     
     display: inherit;
@@ -33,10 +33,13 @@ body.page-template-inicio, body.page-template-organizamos, body.page-template-no
 /* Ajustes generales de la plantilla */
  .woodmart-logo img {  
  
-        transform: scale(1.4) translateY(-2px);
+        transform: scale(1) translateY(-2px);
 }
 .whb-row.whb-general-header.whb-not-sticky-row.whb-without-bg.whb-without-border.whb-color-dark.whb-flex-equal-sides {
-    padding: 20px;
+    padding: 30px;
+}
+.whb-general-header .woodmart-logo img {
+    max-height: max-content!important;
 }
 @import "vars";
 .main-page-wrapper {
@@ -57,7 +60,7 @@ body.page-template-inicio, body.page-template-organizamos, body.page-template-no
      color: @gris;
     font-size: 16px;
         position: relative;
-        top: 37px;
+        top: 60px;
 }
 
 /*Esquema por defecto para las secciones*/
@@ -342,12 +345,26 @@ section.movil {
 #contacto{
      background: url(../img/contacto.jpg) no-repeat center;
       margin-bottom: -65px;
+    .contenedor2{
+            max-width: 800px;
+        padding-bottom: 30px;
+        h3,p{
+            text-align: center;
+        }
+        
+    }
+    #fld_9613775_1-wrap {
+    position: relative;
+    text-align: center;
+}
+    
     p{
         &.especial{
             text-align: center;
         }
         img{
-            margin-left: 20px;
+            margin-right: 10px;
+                width: 6%;
             
         }
         &.imagenes{
@@ -423,9 +440,9 @@ footer.template-section {
         padding: inherit;
     background-color: @blanco;
     .fondo {
-        margin-top: -8px;
+       
        background: url(../img/1Conocenos.jpg) no-repeat center;
-        background: url(../img/1Conocenos.jpg) no-repeat center;
+      
     }
 
     h2 {
